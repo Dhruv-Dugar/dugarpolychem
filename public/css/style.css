@@ -227,6 +227,15 @@ a:focus,
   margin-top: 0;
   margin-bottom: 10px;
 }
+.intro h2 {
+  font-family: "Raleway", sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 60px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
 .intro h1 span {
   font-weight: 800;
   color: #5ca9fb;
