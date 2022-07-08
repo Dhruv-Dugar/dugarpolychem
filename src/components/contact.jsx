@@ -98,7 +98,7 @@ export const Contact = (props) => {
                     required
                     onChange={handleChange}
                   ></textarea>
-                  <p className='help-block text-danger'></p>
+                  <p className='help-blocik text-danger'></p>
                 </div>
                 <div id='success'></div>
                 <button type='submit' className='btn btn-custom btn-lg'>
