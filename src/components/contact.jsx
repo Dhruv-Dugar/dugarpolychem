@@ -74,7 +74,7 @@ export const Contact = (props) => {
                       />
                       <p className='help-block text-danger'></p>
                     </div>
-                    <div className='form-group'>
+                    {/* <div className='form-group'>
                       <input
                         type='email'
                         id='email'
@@ -85,7 +85,7 @@ export const Contact = (props) => {
                         onChange={handleChange}
                       />
                       <p className='help-block text-danger'></p>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className='form-group'>
