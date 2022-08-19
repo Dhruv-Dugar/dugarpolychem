@@ -1,8 +1,6 @@
 # This site is now Live!
 
-Visit the site [Here](www.dugarpolychem.com)
-
-
+<a href="www.dugarpolychem.com">Link</a>
 
 
 
