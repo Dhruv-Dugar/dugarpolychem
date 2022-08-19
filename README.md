@@ -1,6 +1,6 @@
 # This site is now Live!
 
-<a href="www.dugarpolychem.com">Link</a>
+<a href="https://www.dugarpolychem.com">Link</a>
 
 
 
