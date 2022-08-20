@@ -1,3 +1,5 @@
+import FadeExample from "./animatedTitle"
+
 export const Header = (props) => {
     return (
       <header id='header'>
@@ -7,7 +9,7 @@ export const Header = (props) => {
               <div className='row'>
                 <div className='col-md-8 col-md-offset-2 intro-text'>
                   <h2>
-                    {props.data ? props.data.title : 'Loading'}
+                    <FadeExample/>
                     <span></span>
                   </h2>
                   <p>{props.data ? props.data.paragraph : 'Loading'}</p>
@@ -25,4 +27,3 @@ export const Header = (props) => {
       </header>
     )
   }
-  
