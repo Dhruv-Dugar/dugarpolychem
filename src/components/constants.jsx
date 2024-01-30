@@ -28,4 +28,31 @@ const services = [
       "text": "We have a team of highly qualified and experienced professionals who are dedicated to providing the best technical solutions to our clients."
     }
   ]
-export {paragraph1, paragraph2, whyChooseUs1, whyChooseUs2, services}
+
+const gallery = [
+    {
+      "title": "PVC Resin",
+      "largeImage": "img/portfolio/01-large.png",
+      "smallImage": "img/portfolio/01-small.png"
+    },
+    {
+      "title": "PVS Plastisol",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "PVC Off Grade",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    }
+  ]
+
+const contact = {
+    "address": "102, Gupta Complex, Inderlok, Delhi 110035, India.",
+    "phone": "+91 9891380449",
+    "email": "info@dugarpolychem.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  }
+export {paragraph1, paragraph2, whyChooseUs1, whyChooseUs2, services, gallery, contact}

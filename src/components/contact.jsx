@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import emailjs from 'emailjs-com'
-
+import { contact } from './constants'
 const initialState = {
   name: '',
   email: '',
@@ -114,7 +114,7 @@ export const Contact = (props) => {
                 <span>
                   <i className='fa fa-map-marker'></i> Address
                 </span>
-                {props.data ? props.data.address : 'loading'}
+                {contact ? contact.address : 'loading'}
               </p>
             </div>
             <div className='contact-item'>
@@ -122,7 +122,7 @@ export const Contact = (props) => {
                 <span>
                   <i className='fa fa-phone'></i> Phone
                 </span>{' '}
-                {props.data ? props.data.phone : 'loading'}
+                {contact ? contact.phone : 'loading'}
               </p>
             </div>
             <div className='contact-item'>
@@ -130,31 +130,8 @@ export const Contact = (props) => {
                 <span>
                   <i className='fa fa-envelope-o'></i> Email
                 </span>{' '}
-                {props.data ? props.data.email : 'loading'}
+                {contact ? contact.email : 'loading'}
               </p>
-            </div>
-          </div>
-          <div className='col-md-12'>
-            <div className='row'>
-              <div className='social'>
-                <ul>
-                  <li>
-                    <a href={props.data ? props.data.facebook : '/'}>
-                      <i className='fa fa-facebook'></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.twitter : '/'}>
-                      <i className='fa fa-twitter'></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.youtube : '/'}>
-                      <i className='fa fa-youtube'></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
             </div>
           </div>
         </div>
