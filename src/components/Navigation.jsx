@@ -1,4 +1,4 @@
-export const Navigation = () => {
+function NavigationBar() {
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
       <div className='container'>
@@ -56,3 +56,5 @@ export const Navigation = () => {
     </nav>
   )
 }
+
+export default NavigationBar
