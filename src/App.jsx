@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 import { Navigation } from "./components/Navigation"
 import { Header } from "./components/header";
-import { About } from "./components/about.jsx"; //dfv
-import { Services } from "./components/services.jsx"; //dvs
-import { Gallery } from "./components/gallery.jsx"; //cecwev
+import { About } from "./components/about.jsx"; 
+import { Services } from "./components/services.jsx"; 
+import { Gallery } from "./components/gallery.jsx"; 
 import {Contact} from "./components/contact.jsx";
-import JsonData from "./data/data.json"; //cevcwv
-import SmoothScroll from "smooth-scroll"; //vwvwr
+import JsonData from "./data/data.json"; 
+import SmoothScroll from "smooth-scroll"; 
 import "./App.css";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
