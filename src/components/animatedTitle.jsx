@@ -2,11 +2,11 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 
-class FadeExample extends React.Component {
+class FadingTitle extends React.Component {
   render() {
     return (
       <div>
-        <Fade left>
+        <Fade>
           Dugar Polychem
         </Fade>
       </div>
@@ -14,4 +14,4 @@ class FadeExample extends React.Component {
   }
 }
 
-export default FadeExample;
+export default FadingTitle;
